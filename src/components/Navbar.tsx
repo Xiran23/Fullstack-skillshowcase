@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import { motion, AnimatePresence } from 'framer-motion'
 import {
-  Sun, Moon, ShoppingCart, Heart, User,
+  Sun, Moon, ShoppingCart, Heart,
   Menu, X, MessageCircle, Home, Film, TrendingUp, Hotel, BookOpen, Dice5
 } from 'lucide-react'
 import { useTheme } from '../contexts/ThemeContext'
@@ -160,3 +160,5 @@ const Navbar: React.FC = () => {
 }
 
 export default Navbar
+
+// re run build
